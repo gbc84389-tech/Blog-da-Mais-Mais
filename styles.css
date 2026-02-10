@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFFDD0;
+}
+
+header nav ul {
+    margin-top: 25px;
+    margin-left: 45vh;
+}
+
+.container {
+    display: flex;
+
+}
+
+/*controle das referencias*/
+a {
+    text-decoration: none;
+    color: #B2B6FF;
+}
+
+a:hover {
+    color: black;
+    font-size: 41px;
+}
+
+a:active {
+    color: #D0D2FF;
+}
+
+.referencias {
+    display: inline;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Monospace;
+    margin-right: 150px;
+    background-color: #fdfac2;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 100%;
+    padding-bottom: 20px;
+}
+
+/*final do controle das referencias e inicio do controle da header do blog*/
+header h1 {
+    font-family: Monospace;
+    font-weight: bold;
+    font-size: 60px;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: #B2B6FF;
+}
