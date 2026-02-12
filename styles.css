@@ -21,11 +21,11 @@ header nav ul {
 /*controle das referencias*/
 a {
     text-decoration: none;
-    color: #B2B6FF;
+    color: #9ca1ff;
 }
 
 a:hover {
-    color: black;
+    color: #8188ff;
     font-size: 41px;
 }
 
@@ -33,13 +33,36 @@ a:active {
     color: #D0D2FF;
 }
 
-.referencias {
+.referencias-1 {
     display: inline;
     font-size: 40px;
     font-weight: bold;
     font-family: Monospace;
     margin-right: 150px;
-    background-color: #fdfac2;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 100%;
+    padding-bottom: 20px;
+}
+
+.referencias-2 {
+    display: inline;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Monospace;
+    margin-right: 150px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 100%;
+    padding-bottom: 20px;
+}
+
+.referencias-3 {
+    display: inline;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Monospace;
+    margin-right: 150px;
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 100%;
@@ -51,7 +74,25 @@ header h1 {
     font-family: Monospace;
     font-weight: bold;
     font-size: 60px;
-    margin-left: 10px;
+    margin-left: 30px;
     margin-top: 10px;
-    color: #B2B6FF;
+    color: #9ca1ff;
+}
+
+/*Primeira imagem*/
+
+.firstIMG {
+    margin-top: 60px;
+    margin-left: 30px;
+}
+
+#img-1 {
+    width: 30%;
+    border-width: 100px;
+    border: 5px solid #9ca1ff;
+}
+
+.txt-1 {
+    margin-top: 5px;
+    color: #9ca1ff;
 }
