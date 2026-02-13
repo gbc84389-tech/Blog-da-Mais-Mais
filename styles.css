@@ -6,6 +6,7 @@
 
 body {
     background-color: #FFFDD0;
+    font-family: monospace;
 }
 
 header nav ul {
@@ -37,7 +38,6 @@ a:active {
     display: inline;
     font-size: 40px;
     font-weight: bold;
-    font-family: Monospace;
     margin-right: 150px;
     padding-left: 10px;
     padding-right: 10px;
@@ -49,7 +49,6 @@ a:active {
     display: inline;
     font-size: 40px;
     font-weight: bold;
-    font-family: Monospace;
     margin-right: 150px;
     padding-left: 10px;
     padding-right: 10px;
@@ -61,7 +60,6 @@ a:active {
     display: inline;
     font-size: 40px;
     font-weight: bold;
-    font-family: Monospace;
     margin-right: 150px;
     padding-left: 10px;
     padding-right: 10px;
@@ -71,7 +69,6 @@ a:active {
 
 /*final do controle das referencias e inicio do controle da header do blog*/
 header h1 {
-    font-family: Monospace;
     font-weight: bold;
     font-size: 60px;
     margin-left: 30px;
@@ -86,13 +83,40 @@ header h1 {
     margin-left: 30px;
 }
 
+/*texto 1*/
+.anaVitoria {
+    font-size: 55px;
+    color: #9ca1ff;
+    margin-bottom: 4px;
+}
+
+.anaVitoria::before {
+    content: "💙";
+}
+
+.anaVitoria::after {
+    content: "💙";
+}
+
 #img-1 {
-    width: 30%;
+    width: 40%;
     border-width: 100px;
     border: 5px solid #9ca1ff;
 }
 
 .txt-1 {
+    margin-top: 5px;
+    color: #9ca1ff;
+}
+
+/*texto 1*/
+#img-2 {
+    width: 1000px;
+    border-width: 100px;
+    border: 5px solid #9ca1ff;
+}
+
+.txt-2 {
     margin-top: 5px;
     color: #9ca1ff;
 }
